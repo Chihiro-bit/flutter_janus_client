@@ -6,6 +6,7 @@ import './typed_examples/sip.dart';
 import './typed_examples/streaming.dart';
 import './typed_examples/video_call.dart';
 import 'typed_examples/text_room.dart';
+import 'typed_examples/voice_hub.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -27,6 +28,7 @@ void main() {
       "/typed_video_call": (c) => TypedVideoCallV2Example(),
       "/typed_audio_bridge": (c) => TypedAudioRoomV2(),
       "/typed_text_room": (c) => TypedTextRoom(),
+      "/voice_hub": (c) => VoiceHubExample(),
       "/": (c) => Home()
     },
   ));

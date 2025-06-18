@@ -62,14 +62,22 @@ class _HomeState extends State<Home> {
                     title: Text.rich(
                       TextSpan(children: [TextSpan(text: "Typed Sip Example"), TextSpan(text: "  New", style: TextStyle(color: Colors.green))]),
                     ),
-                    onTap: () {
-                      Navigator.of(context).pushNamed("/typed_sip");
-                    },
+                  onTap: () {
+                    Navigator.of(context).pushNamed("/typed_sip");
+                  },
+                ),
+                ListTile(
+                  title: Text.rich(
+                    TextSpan(children: [TextSpan(text: "Voice Hub Example"), TextSpan(text: "  New", style: TextStyle(color: Colors.green))]),
                   ),
-                ],
-              ),
+                  onTap: () {
+                    Navigator.of(context).pushNamed("/voice_hub");
+                  },
+                ),
+              ],
             ),
           ),
+        ),
         ));
   }
 }
