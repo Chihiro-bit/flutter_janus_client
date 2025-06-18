@@ -44,6 +44,14 @@ class _HomeState extends State<Home> {
                   ),
                   ListTile(
                     title: Text.rich(
+                      TextSpan(children: [TextSpan(text: "Voice Hub"), TextSpan(text: "  New", style: TextStyle(color: Colors.green))]),
+                    ),
+                    onTap: () {
+                      Navigator.of(context).pushNamed("/voice_hub");
+                    },
+                  ),
+                  ListTile(
+                    title: Text.rich(
                       TextSpan(children: [TextSpan(text: "Typed Audio Bridge Unified"), TextSpan(text: "  New", style: TextStyle(color: Colors.green))]),
                     ),
                     onTap: () {
