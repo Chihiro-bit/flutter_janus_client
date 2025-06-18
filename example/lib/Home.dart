@@ -66,6 +66,14 @@ class _HomeState extends State<Home> {
                       Navigator.of(context).pushNamed("/typed_sip");
                     },
                   ),
+                  ListTile(
+                    title: Text.rich(
+                      TextSpan(children: [TextSpan(text: "Dio Voice Hub"), TextSpan(text: "  New", style: TextStyle(color: Colors.green))]),
+                    ),
+                    onTap: () {
+                      Navigator.of(context).pushNamed("/dio_voice_hub");
+                    },
+                  ),
                 ],
               ),
             ),
