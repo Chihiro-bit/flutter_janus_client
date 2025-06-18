@@ -42,6 +42,8 @@ part './wrapper_plugins/janus_text_room_plugin.dart';
 
 part './wrapper_plugins/janus_echo_test_plugin.dart';
 
+part './wrapper_plugins/janus_voice_hub_plugin.dart';
+
 part './interfaces/video_room/video_room_list_response.dart';
 
 part './interfaces/video_room/video_room_list_participants_response.dart';
