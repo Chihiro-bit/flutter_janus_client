@@ -5,6 +5,7 @@ import './typed_examples/google_meet.dart';
 import './typed_examples/sip.dart';
 import './typed_examples/streaming.dart';
 import './typed_examples/video_call.dart';
+import './typed_examples/voice_hub.dart';
 import 'typed_examples/text_room.dart';
 
 void main() {
@@ -25,6 +26,7 @@ void main() {
       "/typed_sip": (c) => TypedSipExample(),
       "/typed_streaming": (c) => TypedStreamingV2(),
       "/typed_video_call": (c) => TypedVideoCallV2Example(),
+      "/voice_hub": (c) => VoiceHubExample(),
       "/typed_audio_bridge": (c) => TypedAudioRoomV2(),
       "/typed_text_room": (c) => TypedTextRoom(),
       "/": (c) => Home()

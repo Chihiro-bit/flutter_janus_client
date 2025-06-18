@@ -27,6 +27,7 @@ part 'janus_plugin.dart';
 part './utils.dart';
 
 part './wrapper_plugins/janus_video_call_plugin.dart';
+part './wrapper_plugins/janus_voice_hub_plugin.dart';
 
 part './wrapper_plugins/janus_sip_plugin.dart';
 
